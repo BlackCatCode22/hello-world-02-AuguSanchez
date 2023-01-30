@@ -12,6 +12,7 @@ using namespace std;
 
 int main()
 {
+    //Greeting and asks for name
     cout << "Hello I am C++" << endl;
 
     string userInput;
@@ -25,14 +26,14 @@ for (int i=0; i<=6; i++)
     {
         cout << endl;
     }
-
+//Responds and ask how your day has been
     cout << " Hello " << userInput << ", did you have a good day today? " << endl;
     
-    // Solution Below
+    // Answer yes or no
     cout << "Y/N?";
     
     cin >> response;
-    
+    //Response based on yes or no
     if (response =='Y') {
         cout << "Thats great to hear, I hope it continues that way.";
     }   

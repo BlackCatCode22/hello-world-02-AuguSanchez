@@ -38,8 +38,13 @@ for (int i=0; i<=6; i++)
         cout << "Thats great to hear, I hope it continues that way.";
     }   
     
-     else{
+     else if (response == 'N') {
         cout << " Thats Okay, we all have those type of days." << endl;
-    }
+     }
+     //Response if not uppercase Y or N
+        else {
+            cout << "Hey are you messing with me? Hmm or maybe you didnt use a uppercase Y or N?"; 
+        }
+    
     return 0;
 }

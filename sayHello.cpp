@@ -21,8 +21,7 @@ cout << "What is your name?";
 
     // Ask user for input 
      cin >> userInput;
-
-for (int i=0; i<=6; i++)
+    
     {
         cout << endl;
     }
